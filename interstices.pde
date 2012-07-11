@@ -7,7 +7,7 @@ void setup() {
   myMatrix.begin();
   //random seed is coming from (temp?) sensor
   randomSeed(analogRead(5));
-  //  Serial.begin(9600);
+    Serial.begin(9600);
   allClear();
 }
 
