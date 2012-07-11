@@ -30,6 +30,9 @@ int sensor12[] = {
   6, 18, 19, 20, 31, 32, 33, 44, 45, 46, 57, 58, 59};
 int sensor3[] = {
   1, 13, 14, 15, 26, 27, 28, 39, 40, 41, 52, 53, 54};
+  
+//array for storage of onboard (middle board) LED values. 0-2 are outer, 3-5 are inner
+byte onboard[6];
 
 //variablessssssss
 unsigned char i = 0;

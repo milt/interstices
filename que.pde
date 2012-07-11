@@ -5,11 +5,13 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
  for(i=0; i<65; i++) {
   if(numb == 32) {
     if(outer) {
-      changeOnboardLED(0, red, green, blue);
-
+      onboard[0] = red;
+      onboard[1] = green;
+      onboard[2] = blue;
     } else {
-      changeOnboardLED(1, red, green, blue);
-
+      onboard[3] = red;
+      onboard[4] = green;
+      onboard[5] = blue;
     }
   }
   if(board0[i] == numb) {
