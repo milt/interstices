@@ -2,9 +2,9 @@
 
 //this is the main body of executed code
 void loop() {
-test();  
+//test();  
 //samburt();
-//oneByOne();
+oneByOne();
 
 }
 
