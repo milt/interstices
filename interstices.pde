@@ -28,19 +28,12 @@ int board1[] = {
 //array for storage of onboard (middle board) LED values. 0-2 are outer, 3-5 are inner
 byte onboard[6];
 
-//these are the arrays that store the red, green and blue values for each address on the two main boards 
+//these are the arrays that store the red, green and blue values for each of the 64 LED addresses on the two daughter boards
 unsigned char RedBrightness0[64];
 unsigned char BlueBrightness0[64];
 unsigned char GreenBrightness0[64];
 unsigned char RedBrightness1[64];
 unsigned char BlueBrightness1[64];
 unsigned char GreenBrightness1[64];
-
-
-
-
-
-
-
 
 
