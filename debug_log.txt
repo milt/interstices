@@ -1,0 +1,478 @@
+b1.o numb=0
+one que cycle
+b0.o numb=2
+one que cycle
+b0.i numb=2
+one que cycle
+b0.o numb=1
+1.o numb=1
+one que cycle
+b0.o numb=3
+one que cycle
+b0.i numb=3
+one que cycle
+b0.o numb=2
+one que cycle
+b0.o numb=4
+one que cycle
+b0.i numb=4
+one que cycle
+b0.o numb=3
+one que cycle
+b0.o numb=5
+one que cycle
+b0.i numb=5
+one que cycle
+b0.o numb=4
+one que cycle
+b0.o numb=6
+umb=6
+one que cycle
+b0.i numb=6
+b1.i numb=6
+one que cycle
+b0.o numb=5
+one que cycle
+mb=7
+b0.o numb=7
+one que cycle
+b1.i numb=7
+b0.i numb=7
+one que cycle
+b0.o numb=6
+umb=6
+one que cycle
+b=8
+b0.o numb=8
+one que cycle
+b1.i numb=8
+b0.i numb=8
+one que cycle
+mb=7
+b0.o numb=7
+one que cycle
+=9
+b0.o numb=9
+one que cycle
+b1.i numb=9
+b0.i numb=9
+one que cycle
+b=8
+b0.o numb=8
+one que cycle
+10
+b0.o numb=10
+one que cycle
+b1.i numb=10
+b0.i numb=10
+one que cycle
+=9
+b0.o numb=9
+one que cycle
+b1.i numb=11
+b0.o numb=11
+one que cycle
+b1.i numb=11
+b0.i numb=11
+one que cycle
+10
+b0.o numb=10
+one que cycle
+1.i numb=12
+b0.o numb=12
+one que cycle
+b1.i numb=12
+b0.i numb=12
+one que cycle
+b1.i numb=11
+b0.o numb=11
+one que cycle
+b0.o numb=13
+one que cycle
+b0.i numb=13
+one que cycle
+1.i numb=12
+b0.o numb=12
+one que cycle
+b0.o numb=14
+one que cycle
+b0.i numb=14
+one que cycle
+b0.o numb=13
+one que cycle
+b0.o numb=15
+one que cycle
+b0.i numb=15
+one que cycle
+b0.o numb=14
+one que cycle
+b0.o numb=16
+one que cycle
+b0.i numb=16
+one que cycle
+b0.o numb=15
+one que cycle
+b0.o numb=17
+one que cycle
+b0.i numb=17
+one que cycle
+b0.o numb=16
+one que cycle
+b0.o numb=18
+one que cycle
+b0.i numb=18
+one que cycle
+b0.o numb=17
+one que cycle
+b0.o numb=19
+one que cycle
+b0.i numb=19
+one que cycle
+b0.o numb=18
+one que cycle
+=20
+b0.o numb=20
+one que cycle
+b1.i numb=20
+b0.i numb=20
+one que cycle
+b0.o numb=19
+one que cycle
+21
+b0.o numb=21
+one que cycle
+b1.i numb=21
+b0.i numb=21
+one que cycle
+=20
+b0.o numb=20
+one que cycle
+one que cycle22
+b0.o numb=22
+one que cycle
+b1.i numb=22
+b0.i numb=22
+one que cycle
+21
+b0.o numb=21
+one que cycle
+ne que cycle23
+b0.o numb=23
+one que cycle
+b1.i numb=23
+b0.i numb=23
+one que cycle
+one que cycle22
+b0.o numb=22
+one que cycle
+e que cycle24
+b0.o numb=24
+one que cycle
+b1.i numb=24
+b0.i numb=24
+one que cycle
+ne que cycle23
+b0.o numb=23
+one que cycle
+ que cycle25
+b0.o numb=25
+one que cycle
+b1.i numb=25
+b0.i numb=25
+one que cycle
+e que cycle24
+b0.o numb=24
+one que cycle
+b0.o numb=26
+one que cycle
+b0.i numb=26
+one que cycle
+ que cycle25
+b0.o numb=25
+one que cycle
+b0.o numb=27
+one que cycle
+b0.i numb=27
+one que cycle
+b0.o numb=26
+one que cycle
+b0.o numb=28
+one que cycle
+b0.i numb=28
+one que cycle
+b0.o numb=27
+one que cycle
+b0.o numb=29
+one que cycle
+b0.i numb=29
+one que cycle
+b0.o numb=28
+one que cycle
+b0.o numb=30
+one que cycle
+b0.i numb=30
+one que cycle
+b0.o numb=29
+one que cycle
+b0.o numb=31
+one que cycle
+b0.i numb=31
+one que cycle
+b0.o numb=30
+one que cycle
+one que cycle
+one que cycle
+b0.o numb=31
+one que cycle
+le33
+b0.o numb=33
+one que cycle
+b1.i numb=33
+b0.i numb=33
+one que cycle
+one que cycle
+e34
+b0.o numb=34
+one que cycle
+b1.i numb=34
+b0.i numb=34
+one que cycle
+le33
+b0.o numb=33
+one que cycle
+35
+b0.o numb=35
+one que cycle
+b1.i numb=35
+b0.i numb=35
+one que cycle
+e34
+b0.o numb=34
+one que cycle
+36
+b0.o numb=36
+one que cycle
+b1.i numb=36
+b0.i numb=36
+one que cycle
+35
+b0.o numb=35
+one que cycle
+37
+b0.o numb=37
+one que cycle
+b1.i numb=37
+b0.i numb=37
+one que cycle
+36
+b0.o numb=36
+one que cycle
+38
+b0.o numb=38
+one que cycle
+b1.i numb=38
+b0.i numb=38
+one que cycle
+37
+b0.o numb=37
+one que cycle
+b0.o numb=39
+one que cycle
+b0.i numb=39
+one que cycle
+38
+b0.o numb=38
+one que cycle
+b0.o numb=40
+one que cycle
+b0.i numb=40
+one que cycle
+b0.o numb=39
+one que cycle
+b0.o numb=41
+one que cycle
+b0.i numb=41
+one que cycle
+b0.o numb=40
+one que cycle
+b0.o numb=42
+one que cycle
+b0.i numb=42
+one que cycle
+b0.o numb=41
+one que cycle
+b0.o numb=43
+one que cycle
+b0.i numb=43
+one que cycle
+b0.o numb=42
+one que cycle
+b0.o numb=44
+one que cycle
+b0.i numb=44
+one que cycle
+b0.o numb=43
+one que cycle
+45
+b0.o numb=45
+one que cycle
+b1.i numb=45
+b0.i numb=45
+one que cycle
+b0.o numb=44
+one que cycle
+46
+b0.o numb=46
+one que cycle
+b1.i numb=46
+b0.i numb=46
+one que cycle
+45
+b0.o numb=45
+one que cycle
+47
+b0.o numb=47
+one que cycle
+b1.i numb=47
+b0.i numb=47
+one que cycle
+46
+b0.o numb=46
+one que cycle
+948
+b0.o numb=48
+one que cycle
+b1.i numb=48
+b0.i numb=48
+one que cycle
+47
+b0.o numb=47
+one que cycle
+49
+b0.o numb=49
+one que cycle
+b1.i numb=49
+b0.i numb=49
+one que cycle
+948
+b0.o numb=48
+one que cycle
+(50
+b0.o numb=50
+one que cycle
+b1.i numb=50
+b0.i numb=50
+one que cycle
+49
+b0.o numb=49
+one que cycle
+51
+b0.o numb=51
+one que cycle
+b1.i numb=51
+b0.i numb=51
+one que cycle
+(50
+b0.o numb=50
+one que cycle
+b0.o numb=52
+one que cycle
+b0.i numb=52
+one que cycle
+51
+b0.o numb=51
+one que cycle
+b0.o numb=53
+one que cycle
+b0.i numb=53
+one que cycle
+b0.o numb=52
+one que cycle
+b0.o numb=54
+one que cycle
+b0.i numb=54
+one que cycle
+b0.o numb=53
+one que cycle
+b0.o numb=55
+one que cycle
+b0.i numb=55
+one que cycle
+b0.o numb=54
+one que cycle
+b0.o numb=56
+one que cycle
+b0.i numb=56
+one que cycle
+b0.o numb=55
+one que cycle
+b0.o numb=57
+one que cycle
+b0.i numb=57
+one que cycle
+b0.o numb=56
+one que cycle
+;58
+b0.o numb=58
+one que cycle
+b1.i numb=58
+b0.i numb=58
+one que cycle
+b0.o numb=57
+one que cycle
+59
+b0.o numb=59
+one que cycle
+b1.i numb=59
+b0.i numb=59
+one que cycle
+;58
+b0.o numb=58
+one que cycle
+*60
+b0.o numb=60
+one que cycle
+b1.i numb=60
+b0.i numb=60
+one que cycle
+59
+b0.o numb=59
+one que cycle
+61
+b0.o numb=61
+one que cycle
+b1.i numb=61
+b0.i numb=61
+one que cycle
+*60
+b0.o numb=60
+one que cycle
+62
+b0.o numb=62
+one que cycle
+b1.i numb=62
+b0.i numb=62
+one que cycle
+61
+b0.o numb=61
+one que cycle
+63
+b0.o numb=63
+one que cycle
+b1.i numb=63
+b0.i numb=63
+one que cycle
+62
+b0.o numb=62
+one que cycle
+64
+64
+b0.o numb=64
+one que cycle
+b1.i numb=64
+b1.i numb=64
+b0.i numb=64
+one que cycle
+63
+b0.o numb=63
+one que cycle
