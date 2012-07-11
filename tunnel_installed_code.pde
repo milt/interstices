@@ -49,6 +49,14 @@ unsigned char lastbuffer1R[65];
 unsigned char lastbuffer1G[65];
 unsigned char lastbuffer1B[65];
 
+//sensor arrays? how are these lists used?
+int sensor0[] = {
+  11, 23, 24, 25, 36, 37, 38, 49, 50, 51, 62, 63, 64};
+int sensor12[] = {
+  6, 18, 19, 20, 31, 32, 33, 44, 45, 46, 57, 58, 59};
+int sensor3[] = {
+  1, 13, 14, 15, 26, 27, 28, 39, 40, 41, 52, 53, 54};
+
 void samburt(){
   //getting some kind of values from the sensors
   sensor0Value = analogRead(sensor0Pin);
