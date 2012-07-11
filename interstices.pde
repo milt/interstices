@@ -5,12 +5,14 @@ MatrixNet myMatrix;
 
 void setup() {
   myMatrix.begin();
+  //random seed is coming from (temp?) sensor
   randomSeed(analogRead(5));
   //  Serial.begin(9600);
   allClear();
 }
 
 //array of pixel addresses
+//list translates to accurate position on board
 int list[] = {
   62, 45, 28, 11, 57, 40, 8, 30, 13, 59, 42, 25, 8,
   15, 61, 44, 27, 10, 56, 24, 46, 29, 12, 58, 41, 24, 31, 14, 60, 43, 26, 9, 0, 
@@ -23,7 +25,7 @@ int board0[] = {
 int board1[] = {
   7, 8, 9, 10, 11, 12, 20, 21, 22, 23, 24, 25, 64, 33, 34, 35, 36, 37, 38, 45, 46, 47, 48, 49, 50, 51, 58, 59, 60, 61, 62, 63, 64};
 
-//wtf sensor arrays? random seed values?
+//sensor arrays? how are these lists used?
 int sensor0[] = {
   11, 23, 24, 25, 36, 37, 38, 49, 50, 51, 62, 63, 64};
 int sensor12[] = {
@@ -34,16 +36,14 @@ int sensor3[] = {
 //array for storage of onboard (middle board) LED values. 0-2 are outer, 3-5 are inner
 byte onboard[6];
 
-//variablessssssss
-unsigned char i = 0;
-int dlay = 500;
-unsigned char q = 0;
-int fadecycle = 30;
+//these are the arrays that store the red, green and blue values for each address on the two main boards 
+unsigned char RedBrightness0[64];
+unsigned char BlueBrightness0[64];
+unsigned char GreenBrightness0[64];
+unsigned char RedBrightness1[64];
+unsigned char BlueBrightness1[64];
+unsigned char GreenBrightness1[64];
 
-//equivalent of onLED for frame buffer method.
-void queLED(int col, int row, unsigned char red, unsigned char blue, unsigned char green, boolean outer) {
-  que(row*13+col, red, blue, green, outer);
-}
 
 
 
