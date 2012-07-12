@@ -58,7 +58,47 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
   Serial.println("one que cycle");
 }
 
-
-
+//old que... We were wondering why we did this, I think it was because the if statements "leaked" if the function was a void. Investigate...
+/*
+boolean que(int numb, unsigned char red, unsigned char blue, unsigned char green, boolean outer)
+{
+ for(i=0; i<65; i++) {
+  if(numb == 32) {
+    if(outer) {
+      changeOnboardLED(0, red, green, blue);
+      return true;
+    } else {
+      changeOnboardLED(1, red, green, blue);
+      return true;
+    }
+  }
+  if(board0[i] == numb) {
+   if(outer) {
+     RedBrightness0[list[numb]] = red;
+     GreenBrightness0[list[numb]] = green;
+     BlueBrightness0[list[numb]] = blue;
+     return true;
+   } else {
+     RedBrightness0[list[numb]-8] = red;
+     GreenBrightness0[list[numb]-8] = green;
+     BlueBrightness0[list[numb]-8] = blue;
+    return true;
+   }
+  } else if(board1[i] == numb) {
+   if(outer) {
+     RedBrightness1[list[numb]] = red;
+     GreenBrightness1[list[numb]] = green;
+     BlueBrightness1[list[numb]] = blue;
+    return true;
+   } else {
+     RedBrightness1[list[numb]-8] = red;
+     GreenBrightness1[list[numb]-8] = green;
+     BlueBrightness1[list[numb]-8] = blue;
+    return true;
+   }
+  }
+ }
+}
+*/
 
 
