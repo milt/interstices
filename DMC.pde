@@ -12,8 +12,6 @@ void dmc(){
 
     que(theDMC[x], 255, 255, 255, true);
     que(theDMC[x], 255, 255, 255, false);
-
-
   }
   writey();
 }
