@@ -1,6 +1,6 @@
 void testQueLED() {
 //not really sure what is going on with this.
- 
+ /*
   for (int row=0;row<5;row++) {
     for (int col=0;col<13;col++) {
       queLED(col, row, 255, 255, 255, 0);
@@ -16,6 +16,13 @@ void testQueLED() {
       writey();
     }
   }
+  */
+  for (int q=0;q<65;q++) {
+    queLED(addr2Coord(q)[0],addr2Coord(q)[1],255,255,255,0);
+    writey();
+  }
+  allClear();
+  writey();
 }
 
 
