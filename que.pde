@@ -7,11 +7,13 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
       onboard[0] = red;
       onboard[1] = green;
       onboard[2] = blue;
+      return;
     } 
     else {
       onboard[3] = red;
       onboard[4] = green;
       onboard[5] = blue;
+      return;
     }
   }
 
@@ -29,6 +31,7 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
         BlueBrightness0[list[numb]] = blue;
         Serial.print("b0.o numb=");
         Serial.println(numb);  //trying to diagnose a double pixel error
+        return;
       } 
       else { //if not outer / therefore inner - addresses are offset by -8
         RedBrightness0[list[numb]-8] = red;
@@ -36,6 +39,7 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
         BlueBrightness0[list[numb]-8] = blue;
         Serial.print("b0.i numb=");
         Serial.println(numb);
+        return;
       }
     } 
     else if (board1[i] == numb) {
@@ -45,6 +49,7 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
         BlueBrightness1[list[numb]] = blue;
         Serial.print("b1.o numb="+numb);
         Serial.println(numb);
+        return;
       } 
       else {
         RedBrightness1[list[numb]-8] = red;
@@ -52,7 +57,7 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
         BlueBrightness1[list[numb]-8] = blue;        
         Serial.print("b1.i numb=");
         Serial.println(numb);
-
+        return;
       }
     }
   }
