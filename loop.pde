@@ -6,7 +6,8 @@ void loop() {
 //test();  
 //samburt();
 //oneByOne();
-testMilt(1);
+//testMilt(1);
+dmc();
 
 }
 
