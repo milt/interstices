@@ -17,6 +17,7 @@ void que(int numb, unsigned char red, unsigned char blue, unsigned char green, b
 
   //there is a problem here with how the thing is checking for pixel addresses
   //we are getting duplicate triggers
+  //we should try the following after each block: return; or break; or continue;
 
 
   for (i=0; i<65; i++) { //checking to see if the address belongs to board zero or one
@@ -65,10 +66,14 @@ boolean que(int numb, unsigned char red, unsigned char blue, unsigned char green
  for(i=0; i<65; i++) {
   if(numb == 32) {
     if(outer) {
-      changeOnboardLED(0, red, green, blue);
+      onboard[0] = red;
+      onboard[1] = green;
+      onboard[2] = blue;
       return true;
     } else {
-      changeOnboardLED(1, red, green, blue);
+      onboard[3] = red;
+      onboard[4] = green;
+      onboard[5] = blue;
       return true;
     }
   }
