@@ -7,7 +7,7 @@ void loop() {
 //samburt();
 //oneByOne();
 //testMilt(1);
-//dmc();
-nyanCat();
+dmc();
+//nyanCat();
 }
 
