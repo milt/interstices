@@ -24,8 +24,8 @@ void dmc(){
 for(int n=0; n<13; n++){
   for(int x=0; x<33; x++){
     //queLED(int col, int row, unsigned char red, unsigned char blue, unsigned char green, boolean outer) {
-    queLED(theDMC[x]%13, theDMC[x]/13, 255,255,255,true);
-    queLED(theDMC[x]%13, theDMC[x]/13, 255,255,255,true);
+    queLED(theDMC[x]%13+n, theDMC[x]/13, 255,255,255,true);
+    queLED(theDMC[x]%13+n, theDMC[x]/13, 255,255,255,true);
     }
     writey();
     delay(500);
