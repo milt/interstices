@@ -7,17 +7,19 @@ void setup() {
   myMatrix.begin();
   //random seed is coming from (temp?) sensor
   randomSeed(analogRead(5));
-    Serial.begin(9600);
+  //Serial.begin(9600);
   allClear();
 }
 
 //array of pixel addresses
 //list translates to accurate position on board
 int list[] = {
-  62, 45, 28, 11, 57, 40, 8, 30, 13, 59, 42, 25, 8,
-  15, 61, 44, 27, 10, 56, 24, 46, 29, 12, 58, 41, 24, 31, 14, 60, 43, 26, 9, 0, 
-  62, 45, 28, 11, 57, 40, 47, 30, 13, 59, 42, 25, 47, 15, 61, 44, 27, 10, 56,
-  63, 46, 29, 12, 58, 41, 63, 31, 14, 60, 43, 26, 9};
+  62, 45, 28, 11, 57, 40,  8, 30, 13, 59, 42, 25,  8,
+  15, 61, 44, 27, 10, 56, 24, 46, 29, 12, 58, 41, 24,
+  31, 14, 60, 43, 26,  9,  0, 62, 45, 28, 11, 57, 40,
+  47, 30, 13, 59, 42, 25, 47, 15, 61, 44, 27, 10, 56,
+  63, 46, 29, 12, 58, 41, 63, 31, 14, 60, 43, 26,  9
+};
 
 //half the values belong to board one, half to board two (except 3, that's driven by the middle board)
 int board0[] = {

@@ -6,7 +6,7 @@ void loop() {
 //test();  
 //samburt();
 //oneByOne();
-testMilt();
+testMilt(1);
 
 }
 
