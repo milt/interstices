@@ -5,9 +5,10 @@ void testFill() {
     que(q, 255, 0, 0, true);
     que(q, 255, 0, 0, false);
   }
-  allSet();
+  writey();
   delay(1000);
   allClear();
+  writey();
   delay(1000);
 
   //fill green
@@ -15,9 +16,10 @@ void testFill() {
     que(q, 0, 255, 0, true);
     que(q, 0, 255, 0, false);
   }
-  allSet();
+  writey();
   delay(1000);
   allClear();
+  writey();
   delay(1000);
 
   //fill blue
@@ -25,9 +27,10 @@ void testFill() {
     que(q, 0, 0, 255, true);
     que(q, 0, 0, 255, false);
   }
-  allSet();
+  writey();
   delay(1000);
   allClear();
+  writey();
   delay(1000);
 }
 

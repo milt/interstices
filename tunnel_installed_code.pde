@@ -125,7 +125,7 @@ void samburt(){
         }
       }
     }
-    allSet();
+    writey();
 
   }
 

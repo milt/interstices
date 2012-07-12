@@ -1,5 +1,5 @@
 //this actively changes the LEDs to the values stored in the arrays
-void allSet()
+void writey()
 {
   myMatrix.changeLEDBoard(0, RedBrightness0, GreenBrightness0, BlueBrightness0);
   myMatrix.changeLEDBoard(1, RedBrightness1, GreenBrightness1, BlueBrightness1);

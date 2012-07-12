@@ -9,6 +9,7 @@ void setup() {
   randomSeed(analogRead(5));
   //Serial.begin(9600);
   allClear();
+  writey();
 }
 
 //array of pixel addresses
@@ -28,6 +29,7 @@ int board0[] = {
   26, 27, 28, 29, 30, 31, 0, //what's the deal with this extra zero?
   39, 40, 41, 42, 43, 44, 
   52, 53, 54, 55, 56, 57};
+
 int board1[] = {
   7, 8, 9, 10, 11, 12, 
   20, 21, 22, 23, 24, 25, 
@@ -45,5 +47,4 @@ unsigned char GreenBrightness0[64];
 unsigned char RedBrightness1[64];
 unsigned char BlueBrightness1[64];
 unsigned char GreenBrightness1[64];
-
 

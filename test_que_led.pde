@@ -9,7 +9,7 @@ void testQueLED() {
       }
     }
   }
-  allSet();
+  writey();
   delay(1000);
   allClear();
   delay(1000);
@@ -20,9 +20,10 @@ void testQueLED() {
         queLED(col, 0, 255, 0, 0, 1);
         queLED(col, 0, 255, 0, 0, 0);
       }
-        allSet();
+        writey();
   delay(1000);
   allClear();
+  writey();
   delay(1000);
 }
 
