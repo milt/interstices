@@ -10,17 +10,19 @@ void loop() {
 //  scroll(4,boxy,red,green,blue);
 //testFill();
 //test();  
-samburt();
+//samburt();
 //oneByOne();
 //testMilt(1);
 dmc2();
 //nyanCat();
-delay(1000);
-if(random(0,100) == 62)
+//delay(1000);
+/*if(random(0,100) == 62)
 {
   louis();
   delay(2000);
-}
+}*/
+
+
 // scroll(arraySize,arrayName,redArray,greenArray,blueArray)
 
 
