@@ -1,4 +1,5 @@
-int d[]={0,1,13,15,26,28,39,41,52,53};
+
+  int d[]={0,1,13,15,26,28,39,41,52,53};
 
   int m[]={4,8,17,18,20,21,30,32,34,43,47,56,60};
 
@@ -60,6 +61,10 @@ void dmc2(){
     backGreen = 255;
   if(backBlue > 255)
     backBlue = 255;
+    
+  r1 = 255-backRed;
+  g1 = 255-backGreen;
+  b1 = 255-backBlue;
 
 
   //que(int numb, unsigned char red, unsigned char blue, unsigned char green, boolean outer)
@@ -74,13 +79,13 @@ void dmc2(){
   }
   //M
   for (int x=0; x<13; x++){
-    que(m[x], b1,r1,g1, true);
-    que(m[x], b1,r1,g1, false);
+    que(m[x], r1,g1,b1, true);
+    que(m[x], r1,g1,b1, false);
   }
   //C
   for(int x=0; x<7; x++){
-    que(c[x], g1,b1,r1, true);
-    que(c[x], g1,b1,r1, false);
+    que(c[x], r1,g1,b1, true);
+    que(c[x], r1,g1,b1, false);
   }
   
   writey();     
@@ -89,13 +94,5 @@ void dmc2(){
   if(iterator > iterThresh)
     iterator = 0;
 }
-
-
-
-
-
-
-
-
 
 

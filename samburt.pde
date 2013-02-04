@@ -1,4 +1,4 @@
-
+/*
 //these variables are all used below
 unsigned char p = 0;
 float l = 0;
@@ -151,3 +151,4 @@ void samburt(){
     randbuffer1B[a] = random(255);
   }
 }
+*/

@@ -14,6 +14,7 @@ void loop() {
 //oneByOne();
 //testMilt(1);
 dmc2();
+//testDMC();
 //nyanCat();
 //delay(1000);
 /*if(random(0,100) == 62)
